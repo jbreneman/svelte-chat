@@ -12,3 +12,33 @@ body {
 *, *::before, *::after {
 	box-sizing: border-box;
 }
+
+:root {
+	--primary: #4D314F;
+	--primary-faded: rgba(77, 49, 79, .3);
+	--secondary: #AF484C;
+	--accent: #BF8A42;
+	--neutral: #F4F4F3;
+	--neutral-alt: #E7C7A1;
+
+	--radius-small: .375rem;
+	--radius: .75rem;
+
+	--spacing-100: .25rem;
+	--spacing-200: .5rem;
+	--spacing-300: .75rem;
+	--spacing-400: 1rem;
+	--spacing-500: 1.25rem;
+	--spacing-600: 1.5rem;
+	--spacing-700: 2rem;
+	--spacing-800: 3rem;
+	--spacing-900: 5rem;
+
+	--easing-100: .12s ease;
+	--easing-300: .24s ease;
+	--easing-500: .36s ease;
+}
+
+input, textarea, button {
+	font: inherit;
+}
