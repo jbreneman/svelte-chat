@@ -16,8 +16,8 @@
     }
 </script>
 
-<section class={`${$$props.class || ''} sign-in`}>
-    <div class="card">
+<main class="sign-in">
+    <section class="card">
         <h1 class="heading">
             Choose name
         </h1>
@@ -30,8 +30,8 @@
                 Join
             </button>
         </form>
-    </div>
-</section>
+    </section>
+</main>
 
 <style>
     .sign-in {
